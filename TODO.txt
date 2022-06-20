@@ -1,0 +1,44 @@
+DONE    cmake
+DONE    easyopts_getVersion(void)
+DONE    easyopts_free()
+DONE    License files and stuff (BSD)
+DONE    Add copyrights to all source files
+DONE    pre-create a "default" group with --help* and --version - make sure it shows up when usage() [--help] is displayed.
+DONE    Move to lib and example directories
+
+        easyopts_process() -- long args
+        easyopts_process() -- short args
+
+        --version
+
+        --help
+        --help-hidden
+        --help-json
+        --help-hidden-json
+
+        deal with "remaining arguments"
+
+        Create github project and add to github
+
+        README.md describing the package
+        man page (copy getopt page and modify heavily)
+        add checks for duplicate arguments at start of Process()
+
+        Deal with default values
+        Implement test validation functions
+        Make buildable under C++ (C++ test program)
+
+        RPM build
+        Ubuntu equivalent of RPM build
+
+        ===
+
+        Format column width
+        Pipe output to "less"
+        Windows build
+        Mac build
+        Windows equivalent of RPM build
+
+        ===
+
+        Program that provides ability to use with bash
